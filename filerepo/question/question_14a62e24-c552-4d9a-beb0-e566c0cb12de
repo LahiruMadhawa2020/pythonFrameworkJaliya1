@@ -1,0 +1,2100 @@
+{
+  "numAttempts": 0,
+  "_doctype": 7,
+  "masterQuestionId": "w714e6b3b-9630-4eb1-a254-8a08bbe1b3a5",
+  "masterQuestionVersion": "0",
+  "timeSpent": 0,
+  "policies": {
+    "assistancePolicies": [{
+      "assistanceType": "answer",
+      "availableSinceAttempt": -1,
+      "penalty": 0
+    }, {
+      "assistanceType": "reference",
+      "availableSinceAttempt": 1,
+      "penalty": 0
+    }, {
+      "assistanceType": "solution",
+      "availableSinceAttempt": -1,
+      "penalty": 0
+    }, {
+      "assistanceType": "listOfAccounts",
+      "availableSinceAttempt": 1,
+      "penalty": 0
+    }],
+    "scoreToKeep": "best",
+    "attemptPolicy": {
+      "maxAttempts": 3,
+      "attemptPenalty": {
+        "attempt": 3,
+        "penalty": 0.0
+      }
+    },
+    "securityPolicy": {
+      "applicable": false,
+      "password": ""
+    },
+    "dueDatePolicy": {
+      "autoSubmit": true,
+      "rules": {
+        "itemAssistance": "byLastAttempt",
+        "finish": "byDueDate",
+        "itemAccess": "yes",
+        "lateSubmit": "no",
+        "itemListDetails": "yes"
+      },
+      "penalties": [],
+      "afterDueDateAccess": "viewWithAssistances"
+    },
+    "feedbackPolicy": "always",
+    "timeDurationPolicy": {
+      "duration": 60,
+      "applicable": false
+    },
+    "algorithmCalculationMode": "sameValues",
+    "shuffleResponseLabels": true
+  },
+  "_epoch": 1601843207263,
+  "title": "Exercise 3.14",
+  "algorithmResult": {
+    "id": "EAT_1578455316295_1_4850329874074777",
+    "templateVariables": [{
+      "value": "Sandhill",
+      "id": "$name"
+    }, {
+      "value": "SANDHILL",
+      "id": "$name1"
+    }, {
+      "value": "122,550",
+      "scope": "resp",
+      "id": "$abc40"
+    }, {
+      "value": "204,550",
+      "scope": "resp",
+      "id": "$abc23"
+    }, {
+      "value": "11,000",
+      "id": "$abc22"
+    }, {
+      "value": "20,000",
+      "id": "$abc21"
+    }, {
+      "value": "68,000",
+      "id": "$abc20"
+    }, {
+      "value": "5,700",
+      "id": "$abc16"
+    }, {
+      "value": "48,800",
+      "scope": "resp",
+      "id": "$abc38"
+    }, {
+      "value": "102,000",
+      "id": "$abc6"
+    }, {
+      "value": "9,500",
+      "id": "$abc15"
+    }, {
+      "value": "10,300",
+      "scope": "resp",
+      "id": "$abc37"
+    }, {
+      "value": "10,200",
+      "id": "$abc7"
+    }, {
+      "value": "200",
+      "id": "$abc14"
+    }, {
+      "value": "122,550",
+      "scope": "resp",
+      "id": "$abc36"
+    }, {
+      "value": "800",
+      "id": "$abc8"
+    }, {
+      "value": "38,500",
+      "id": "$abc13"
+    }, {
+      "value": "78,100",
+      "scope": "resp",
+      "id": "$abc35"
+    }, {
+      "value": "0",
+      "scope": "resp",
+      "id": "$abc9"
+    }, {
+      "value": "800",
+      "id": "$abc19"
+    }, {
+      "value": "23,000",
+      "id": "$abc18"
+    }, {
+      "value": "20,850",
+      "id": "$abc17"
+    }, {
+      "value": "73,750",
+      "scope": "resp",
+      "id": "$abc39"
+    }, {
+      "value": "9,500",
+      "id": "$abc1"
+    }, {
+      "value": "17,500",
+      "id": "$abc2"
+    }, {
+      "value": "23,900",
+      "id": "$abc3"
+    }, {
+      "value": "6,750",
+      "id": "$abc4"
+    }, {
+      "value": "43,000",
+      "id": "$abc5"
+    }, {
+      "value": "30,750",
+      "scope": "resp",
+      "id": "$abc30"
+    }, {
+      "value": "3,900",
+      "id": "$abc12"
+    }, {
+      "value": "44,450",
+      "scope": "resp",
+      "id": "$abc34"
+    }, {
+      "value": "1,800",
+      "id": "$abc11"
+    }, {
+      "value": "73,750",
+      "scope": "resp",
+      "id": "$abc33"
+    }, {
+      "value": "3,200",
+      "id": "$abc10"
+    }, {
+      "value": "11,000",
+      "scope": "resp",
+      "id": "$abc32"
+    }, {
+      "value": "52,850",
+      "scope": "resp",
+      "id": "$abc31"
+    }, {
+      "value": "3,200",
+      "scope": "resp",
+      "id": "$abc27"
+    }, {
+      "value": "13,900",
+      "scope": "resp",
+      "id": "$abc26"
+    }, {
+      "value": "54,100",
+      "scope": "resp",
+      "id": "$abc25"
+    }, {
+      "value": "204,550",
+      "scope": "resp",
+      "id": "$abc24"
+    }, {
+      "value": "32,000",
+      "scope": "resp",
+      "id": "$abc29"
+    }, {
+      "value": "",
+      "scope": "resp",
+      "id": "$blank"
+    }, {
+      "value": "10,700",
+      "scope": "resp",
+      "id": "$abc28"
+    }, {
+      "value": "20",
+      "scope": "resp",
+      "id": "$a"
+    }]
+  },
+  "creationDate": "2020-09-24T21:17:57.694Z",
+  "submitAll": false,
+  "score": {
+    "type": "auto",
+    "rawValue": 0.15873015873015872,
+    "value": 0.15873015873015872,
+    "grade": "partiallyCorrect"
+  },
+  "maxAttempts": 3,
+  "modificationDate": "2020-10-04T20:26:47.261Z",
+  "questionCardId": "c64c9011-8442-467b-9153-b98e8bdc073b",
+  "context": {
+    "consumer_key": "BLACKBOARD_be5fc613-578f-4b0e-a5b5-8ee26cb04896",
+    "lis_result_sourcedid": "bbgc16108466gi2580790",
+    "master_assessment_id": "012b2f27-d8a9-4e9e-a2a8-26b8b94c08fa",
+    "user_id": "1fe27db2acdf49cc868e76ba1981d6eb",
+    "roles": ["urn:lti:role:ims/lis/Learner"],
+    "product_id": "5070e715-6cee-44af-9468-e0474563cc4c",
+    "question_card_id": "c64c9011-8442-467b-9153-b98e8bdc073b",
+    "context_id": "59ff5a0e0eea4a4cad7adeeb4de4300e",
+    "assessment_id": "52d41c746c354fb8ce9e9533b1e2afb631d03ffec3757dab38560ddf8116bb04",
+    "entry_num": 1,
+    "resource_link_id": "_10202441_1"
+  },
+  "eventHistory": [{
+    "date": "2020-10-04T20:26:47.248Z",
+    "eventId": "bed88fae-0fe1-4ffa-a5ce-515bbefc093c",
+    "number": 1,
+    "score": {
+      "raw": 0.15873015873015872,
+      "type": "attempt",
+      "value": 0.15873015873015872,
+      "grade": "partiallyCorrect"
+    },
+    "availableAssistances": [{
+      "type": "reference",
+      "penalty": 0.0,
+      "used": false
+    }, {
+      "type": "listOfAccounts",
+      "penalty": 0.0,
+      "used": false
+    }],
+    "eventType": "submit"
+  }],
+  "id": "14a62e24-c552-4d9a-beb0-e566c0cb12de",
+  "itemResults": [{
+    "numAttempts": 0,
+    "availableAssistances": [{
+      "type": "listOfAccounts",
+      "penalty": 0.0,
+      "used": false
+    }],
+    "visible": false,
+    "sessionStatus": "initial",
+    "available": "yes",
+    "manuallyGraded": false,
+    "feedback": null,
+    "maxAttempts": 3,
+    "score": null,
+    "datestamp": "2020-09-24T21:17:57.657Z",
+    "modified": false,
+    "responseVariables": [],
+    "id": "EAT_1578455316295_1_4850329874074777_head",
+    "attemptPenalty": {
+      "attempt": 3,
+      "penalty": 0.0,
+      "used": false
+    },
+    "state": "inone",
+    "hasSubmit": false
+  }, {
+    "numAttempts": 1,
+    "availableAssistances": [{
+      "type": "reference",
+      "penalty": 0.0,
+      "used": false
+    }, {
+      "type": "listOfAccounts",
+      "penalty": 0.0,
+      "used": false
+    }],
+    "visible": true,
+    "sessionStatus": "pendingSubmission",
+    "available": "auto",
+    "manuallyGraded": false,
+    "feedback": null,
+    "maxAttempts": 3,
+    "score": {
+      "type": "auto",
+      "rawValue": 0.47619047619047616,
+      "value": 0.47619047619047616,
+      "grade": "partiallyCorrect"
+    },
+    "datestamp": "2020-10-04T20:26:47.197Z",
+    "modified": false,
+    "responseVariables": [{
+      "score": 1.0,
+      "gradableXLMap": null,
+      "correctResponse": {
+        "values": ["EAT_1484199758263_1_5010531331192616"],
+        "gradableXLCorrectResponses": null
+      },
+      "candidateResponse": {
+        "values": ["EAT_1484199758263_1_5010531331192616"]
+      },
+      "choiceSequence": ["EAT_1484199758263_1_5010531331192616", "EAT_1484199758263_1_9382002386426003", "EAT_1484199758263_1_0369524696277361"],
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_001",
+      "baseType": "identifier"
+    }, {
+      "score": 1.0,
+      "gradableXLMap": null,
+      "correctResponse": {
+        "values": ["Accounts Payable"],
+        "gradableXLCorrectResponses": null
+      },
+      "candidateResponse": {
+        "values": ["Accounts payable"]
+      },
+      "choiceSequence": ["res_EAT_1325240017374_0_15695276600312846_002"],
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_002",
+      "baseType": "typeahead"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": ["9500"]
+      },
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_003",
+      "baseType": "currency"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": ["10600"]
+      },
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_004",
+      "baseType": "string"
+    }, {
+      "score": 1.0,
+      "gradableXLMap": null,
+      "correctResponse": {
+        "values": ["Accounts Receivable"],
+        "gradableXLCorrectResponses": null
+      },
+      "candidateResponse": {
+        "values": ["Accounts receivable"]
+      },
+      "choiceSequence": ["EAT_1484199562101_1_3425313146731503"],
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_005",
+      "baseType": "typeahead"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": ["1700"]
+      },
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_006",
+      "baseType": "currency"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": ["2800"]
+      },
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_007",
+      "baseType": "string"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": ["Accumulated depreciation—equipment"]
+      },
+      "choiceSequence": ["res_EAT_1325240017374_0_15695276600312846_014"],
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_008",
+      "baseType": "typeahead"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": ["23900"]
+      },
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_009",
+      "baseType": "currency"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": ["25000"]
+      },
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_010",
+      "baseType": "string"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": ["Bank loan payable, due 2023"]
+      },
+      "choiceSequence": ["res_EAT_1325240017374_0_15695276600312846_020"],
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_011",
+      "baseType": "typeahead"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": ["38500"]
+      },
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_012",
+      "baseType": "currency"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": ["39600"]
+      },
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_013",
+      "baseType": "string"
+    }, {
+      "score": 1.0,
+      "gradableXLMap": null,
+      "correctResponse": {
+        "values": ["Cash"],
+        "gradableXLCorrectResponses": null
+      },
+      "candidateResponse": {
+        "values": ["Cash"]
+      },
+      "choiceSequence": ["res_EAT_1325240017374_0_15695276600312846_026"],
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_014",
+      "baseType": "typeahead"
+    }, {
+      "score": 1.0,
+      "gradableXLMap": null,
+      "correctResponse": {
+        "values": ["6,750"],
+        "gradableXLCorrectResponses": null
+      },
+      "candidateResponse": {
+        "values": ["6750"]
+      },
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_015",
+      "baseType": "currency"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": ["7850"]
+      },
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_016",
+      "baseType": "string"
+    }, {
+      "score": 1.0,
+      "gradableXLMap": null,
+      "correctResponse": {
+        "values": ["Common Shares"],
+        "gradableXLCorrectResponses": null
+      },
+      "candidateResponse": {
+        "values": ["Common shares"]
+      },
+      "choiceSequence": ["EAT_1392707990015_0_17182467181241978"],
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_017",
+      "baseType": "typeahead"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": ["43000"]
+      },
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_018",
+      "baseType": "string"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": ["44100"]
+      },
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_019",
+      "baseType": "currency"
+    }, {
+      "score": 1.0,
+      "gradableXLMap": null,
+      "correctResponse": {
+        "values": ["Depreciation Expense"],
+        "gradableXLCorrectResponses": null
+      },
+      "candidateResponse": {
+        "values": ["Depreciation expense"]
+      },
+      "choiceSequence": ["res_EAT_1325240017374_0_15695276600312846_038"],
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_020",
+      "baseType": "typeahead"
+    }, {
+      "score": 1.0,
+      "gradableXLMap": null,
+      "correctResponse": {
+        "values": ["10,200"],
+        "gradableXLCorrectResponses": null
+      },
+      "candidateResponse": {
+        "values": ["10200"]
+      },
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_021",
+      "baseType": "string"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": ["11300"]
+      },
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_022",
+      "baseType": "currency"
+    }, {
+      "score": 1.0,
+      "gradableXLMap": null,
+      "correctResponse": {
+        "values": ["Dividends Declared"],
+        "gradableXLCorrectResponses": null
+      },
+      "candidateResponse": {
+        "values": ["Dividends declared"]
+      },
+      "choiceSequence": ["res_EAT_1325240017374_0_15695276600312846_044"],
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_023",
+      "baseType": "typeahead"
+    }, {
+      "score": 1.0,
+      "gradableXLMap": null,
+      "correctResponse": {
+        "values": ["800"],
+        "gradableXLCorrectResponses": null
+      },
+      "candidateResponse": {
+        "values": ["800"]
+      },
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_024",
+      "baseType": "string"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": ["1900"]
+      },
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_025",
+      "baseType": "currency"
+    }, {
+      "score": 1.0,
+      "gradableXLMap": null,
+      "correctResponse": {
+        "values": ["Equipment"],
+        "gradableXLCorrectResponses": null
+      },
+      "candidateResponse": {
+        "values": ["Equipment"]
+      },
+      "choiceSequence": ["res_EAT_1325240017374_0_15695276600312846_050"],
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_026",
+      "baseType": "typeahead"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": ["10200"]
+      },
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_027",
+      "baseType": "string"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": ["90,000"]
+      },
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_028",
+      "baseType": "currency"
+    }, {
+      "score": 1.0,
+      "gradableXLMap": null,
+      "correctResponse": {
+        "values": ["Income Tax Expense"],
+        "gradableXLCorrectResponses": null
+      },
+      "candidateResponse": {
+        "values": ["Income tax expense"]
+      },
+      "choiceSequence": ["res_EAT_1325240017374_0_15695276600312846_056"],
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_029",
+      "baseType": "typeahead"
+    }, {
+      "score": 1.0,
+      "gradableXLMap": null,
+      "correctResponse": {
+        "values": ["3,200"],
+        "gradableXLCorrectResponses": null
+      },
+      "candidateResponse": {
+        "values": ["3200"]
+      },
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_030",
+      "baseType": "string"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": ["4300"]
+      },
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_031",
+      "baseType": "currency"
+    }, {
+      "score": 1.0,
+      "gradableXLMap": null,
+      "correctResponse": {
+        "values": ["Insurance Expense"],
+        "gradableXLCorrectResponses": null
+      },
+      "candidateResponse": {
+        "values": ["Insurance expense"]
+      },
+      "choiceSequence": ["res_EAT_1325240017374_0_15695276600312846_062"],
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_032",
+      "baseType": "typeahead"
+    }, {
+      "score": 1.0,
+      "gradableXLMap": null,
+      "correctResponse": {
+        "values": ["1,800"],
+        "gradableXLCorrectResponses": null
+      },
+      "candidateResponse": {
+        "values": ["1800"]
+      },
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_033",
+      "baseType": "string"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": ["300,000"]
+      },
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_034",
+      "baseType": "currency"
+    }, {
+      "score": 1.0,
+      "gradableXLMap": null,
+      "correctResponse": {
+        "values": ["Interest Expense"],
+        "gradableXLCorrectResponses": null
+      },
+      "candidateResponse": {
+        "values": ["Interest expense"]
+      },
+      "choiceSequence": ["EAT_1484199608095_1_3725139124556938"],
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_035",
+      "baseType": "typeahead"
+    }, {
+      "score": 1.0,
+      "gradableXLMap": null,
+      "correctResponse": {
+        "values": ["3,900"],
+        "gradableXLCorrectResponses": null
+      },
+      "candidateResponse": {
+        "values": ["3900"]
+      },
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_036",
+      "baseType": "currency"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": ["5000"]
+      },
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_037",
+      "baseType": "string"
+    }, {
+      "score": 1.0,
+      "gradableXLMap": null,
+      "correctResponse": {
+        "values": ["Prepaid Insurance"],
+        "gradableXLCorrectResponses": null
+      },
+      "candidateResponse": {
+        "values": ["\tPrepaid insurance"]
+      },
+      "choiceSequence": ["res_EAT_1325240017374_0_15695276600312846_074"],
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_038",
+      "baseType": "typeahead"
+    }, {
+      "score": 1.0,
+      "gradableXLMap": null,
+      "correctResponse": {
+        "values": ["200"],
+        "gradableXLCorrectResponses": null
+      },
+      "candidateResponse": {
+        "values": ["200"]
+      },
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_039",
+      "baseType": "string"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": ["22,000"]
+      },
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_040",
+      "baseType": "currency"
+    }, {
+      "score": 1.0,
+      "gradableXLMap": null,
+      "correctResponse": {
+        "values": ["Rent Expense"],
+        "gradableXLCorrectResponses": null
+      },
+      "candidateResponse": {
+        "values": ["Rent expense"]
+      },
+      "choiceSequence": ["res_EAT_1325240017374_0_15695276600312846_080"],
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_041",
+      "baseType": "typeahead"
+    }, {
+      "score": 1.0,
+      "gradableXLMap": null,
+      "correctResponse": {
+        "values": ["9,500"],
+        "gradableXLCorrectResponses": null
+      },
+      "candidateResponse": {
+        "values": ["9500"]
+      },
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_042",
+      "baseType": "currency"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": ["13,640"]
+      },
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_043",
+      "baseType": "string"
+    }, {
+      "score": 1.0,
+      "gradableXLMap": null,
+      "correctResponse": {
+        "values": ["Repairs and Maintenance Expense"],
+        "gradableXLCorrectResponses": null
+      },
+      "candidateResponse": {
+        "values": ["Repairs and maintenance expense"]
+      },
+      "choiceSequence": ["res_EAT_1325240017374_0_15695276600312846_086"],
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_044",
+      "baseType": "typeahead"
+    }, {
+      "score": 1.0,
+      "gradableXLMap": null,
+      "correctResponse": {
+        "values": ["5,700"],
+        "gradableXLCorrectResponses": null
+      },
+      "candidateResponse": {
+        "values": ["5700"]
+      },
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_045",
+      "baseType": "currency"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": ["6800"]
+      },
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_046",
+      "baseType": "string"
+    }, {
+      "score": 1.0,
+      "gradableXLMap": null,
+      "correctResponse": {
+        "values": ["Retained Earnings"],
+        "gradableXLCorrectResponses": null
+      },
+      "candidateResponse": {
+        "values": ["Retained earnings"]
+      },
+      "choiceSequence": ["res_EAT_1325240017374_0_15695276600312846_092"],
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_047",
+      "baseType": "typeahead"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": ["20850"]
+      },
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_048",
+      "baseType": "currency"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": ["2,640"]
+      },
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_049",
+      "baseType": "string"
+    }, {
+      "score": 1.0,
+      "gradableXLMap": null,
+      "correctResponse": {
+        "values": ["Salaries Expense"],
+        "gradableXLCorrectResponses": null
+      },
+      "candidateResponse": {
+        "values": ["Salaries expense"]
+      },
+      "choiceSequence": ["EAT_1392708307984_0_379357840736114"],
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_050",
+      "baseType": "typeahead"
+    }, {
+      "score": 1.0,
+      "gradableXLMap": null,
+      "correctResponse": {
+        "values": ["23,000"],
+        "gradableXLCorrectResponses": null
+      },
+      "candidateResponse": {
+        "values": ["23000"]
+      },
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_051",
+      "baseType": "currency"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": ["21950"]
+      },
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_052",
+      "baseType": "string"
+    }, {
+      "score": 1.0,
+      "gradableXLMap": null,
+      "correctResponse": {
+        "values": ["Salaries Payable"],
+        "gradableXLCorrectResponses": null
+      },
+      "candidateResponse": {
+        "values": ["Salaries payable"]
+      },
+      "choiceSequence": ["res_EAT_1325240017374_0_15695276600312846_110"],
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_053",
+      "baseType": "typeahead"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": ["800"]
+      },
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_054",
+      "baseType": "currency"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": ["1900"]
+      },
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_055",
+      "baseType": "string"
+    }, {
+      "score": 1.0,
+      "gradableXLMap": null,
+      "correctResponse": {
+        "values": ["Service Revenue"],
+        "gradableXLCorrectResponses": null
+      },
+      "candidateResponse": {
+        "values": ["Service revenue"]
+      },
+      "choiceSequence": ["res_EAT_1325240017374_0_15695276600312846_116"],
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_056",
+      "baseType": "typeahead"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": ["68000"]
+      },
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_057",
+      "baseType": "currency"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": ["69100"]
+      },
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_058",
+      "baseType": "string"
+    }, {
+      "score": 1.0,
+      "gradableXLMap": null,
+      "correctResponse": {
+        "values": ["Trading Investments"],
+        "gradableXLCorrectResponses": null
+      },
+      "candidateResponse": {
+        "values": ["Trading investments"]
+      },
+      "choiceSequence": ["res_EAT_1325240017374_0_15695276600312846_122"],
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_059",
+      "baseType": "typeahead"
+    }, {
+      "score": 1.0,
+      "gradableXLMap": null,
+      "correctResponse": {
+        "values": ["20,000"],
+        "gradableXLCorrectResponses": null
+      },
+      "candidateResponse": {
+        "values": ["20000"]
+      },
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_060",
+      "baseType": "currency"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": ["21100"]
+      },
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_061",
+      "baseType": "string"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": ["88000"]
+      },
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_062",
+      "baseType": "currency"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": ["8700"]
+      },
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_063",
+      "baseType": "currency"
+    }],
+    "id": "EAT_1578455316606_1_927231017729607",
+    "attemptPenalty": {
+      "attempt": 3,
+      "penalty": 0.0,
+      "used": false
+    },
+    "state": "submit",
+    "hasSubmit": true
+  }, {
+    "numAttempts": 0,
+    "availableAssistances": [{
+      "type": "reference",
+      "penalty": 0.0,
+      "used": false
+    }, {
+      "type": "listOfAccounts",
+      "penalty": 0.0,
+      "used": false
+    }],
+    "visible": false,
+    "sessionStatus": "initial",
+    "available": "no",
+    "manuallyGraded": false,
+    "feedback": null,
+    "maxAttempts": 3,
+    "score": null,
+    "datestamp": "2020-09-24T21:17:57.658Z",
+    "modified": false,
+    "responseVariables": [{
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": [""]
+      },
+      "choiceSequence": ["EAT_1484228702418_1_197969391910284", "EAT_1484228702418_1_1297512810819765", "EAT_1484228702418_1_663776482625599"],
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_064",
+      "baseType": "identifier"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": [""]
+      },
+      "choiceSequence": ["res_EAT_1325240017374_0_15695276600312846_136", "res_EAT_1325240017374_0_15695276600312846_135", "res_EAT_1325240017374_0_15695276600312846_132", "resp_2", "resp_4", "resp_3", "res_EAT_1325240017374_0_15695276600312846_133", "resp_5", "res_EAT_1325240017374_0_15695276600312846_134", "resp_1", "EAT_1484228765930_1_609592627824036"],
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_065",
+      "baseType": "identifier"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": [""]
+      },
+      "choiceSequence": ["res_EAT_1325240017374_0_15695276600312846_139"],
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_066",
+      "baseType": "typeahead"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": [""]
+      },
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_067",
+      "baseType": "currency"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": [""]
+      },
+      "choiceSequence": ["res_EAT_1325240017374_0_15695276600312846_133", "res_EAT_1325240017374_0_15695276600312846_136", "resp_4", "res_EAT_1325240017374_0_15695276600312846_134", "res_EAT_1325240017374_0_15695276600312846_135", "resp_5", "resp_3", "res_EAT_1325240017374_0_15695276600312846_132", "resp_2", "EAT_1484228765930_1_609592627824036", "resp_1"],
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_068",
+      "baseType": "identifier"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": [""]
+      },
+      "choiceSequence": ["res_EAT_1325240017374_0_15695276600312846_150"],
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_069",
+      "baseType": "typeahead"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": [""]
+      },
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_070",
+      "baseType": "currency"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": [""]
+      },
+      "choiceSequence": ["EAT_1392708774250_0_4943345049174064"],
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_071",
+      "baseType": "typeahead"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": [""]
+      },
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_072",
+      "baseType": "currency"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": [""]
+      },
+      "choiceSequence": ["res_EAT_1325240017374_0_15695276600312846_154"],
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_073",
+      "baseType": "typeahead"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": [""]
+      },
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_074",
+      "baseType": "currency"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": [""]
+      },
+      "choiceSequence": ["res_EAT_1325240017374_0_15695276600312846_158"],
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_075",
+      "baseType": "typeahead"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": [""]
+      },
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_076",
+      "baseType": "currency"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": [""]
+      },
+      "choiceSequence": ["res_EAT_1325240017374_0_15695276600312846_170"],
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_077",
+      "baseType": "typeahead"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": [""]
+      },
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_078",
+      "baseType": "currency"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": [""]
+      },
+      "choiceSequence": ["res_EAT_1325240017374_0_15695276600312846_174"],
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_079",
+      "baseType": "typeahead"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": [""]
+      },
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_080",
+      "baseType": "currency"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": [""]
+      },
+      "choiceSequence": ["resp_4", "res_EAT_1325240017374_0_15695276600312846_133", "resp_3", "resp_2", "res_EAT_1325240017374_0_15695276600312846_132", "EAT_1484228765930_1_609592627824036", "res_EAT_1325240017374_0_15695276600312846_135", "res_EAT_1325240017374_0_15695276600312846_136", "res_EAT_1325240017374_0_15695276600312846_134", "resp_5", "resp_1"],
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_081",
+      "baseType": "identifier"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": [""]
+      },
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_082",
+      "baseType": "currency"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": [""]
+      },
+      "choiceSequence": ["resp_2", "res_EAT_1325240017374_0_15695276600312846_132", "res_EAT_1325240017374_0_15695276600312846_135", "resp_1", "resp_3", "EAT_1484228765930_1_609592627824036", "resp_4", "res_EAT_1325240017374_0_15695276600312846_134", "res_EAT_1325240017374_0_15695276600312846_136", "resp_5", "res_EAT_1325240017374_0_15695276600312846_133"],
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_083",
+      "baseType": "identifier"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": [""]
+      },
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_084",
+      "baseType": "currency"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": [""]
+      },
+      "choiceSequence": ["res_EAT_1325240017374_0_15695276600312846_196"],
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_085",
+      "baseType": "typeahead"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": [""]
+      },
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_086",
+      "baseType": "currency"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": [""]
+      },
+      "choiceSequence": ["resp_4", "resp_5", "res_EAT_1325240017374_0_15695276600312846_132", "res_EAT_1325240017374_0_15695276600312846_136", "res_EAT_1325240017374_0_15695276600312846_134", "resp_3", "res_EAT_1325240017374_0_15695276600312846_135", "resp_2", "res_EAT_1325240017374_0_15695276600312846_133", "resp_1", "EAT_1484228765930_1_609592627824036"],
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_087",
+      "baseType": "identifier"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": [""]
+      },
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_088",
+      "baseType": "currency"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": [""]
+      },
+      "choiceSequence": ["EAT_1484228702418_1_663776482625599", "EAT_1484228702418_1_1297512810819765", "EAT_1484228702418_1_197969391910284"],
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_089",
+      "baseType": "identifier"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": [""]
+      },
+      "choiceSequence": ["res_EAT_1325240017374_0_15695276600312846_132", "res_EAT_1325240017374_0_15695276600312846_133", "resp_4", "resp_5", "resp_1", "resp_3", "res_EAT_1325240017374_0_15695276600312846_136", "resp_2", "EAT_1484228765930_1_609592627824036", "res_EAT_1325240017374_0_15695276600312846_135", "res_EAT_1325240017374_0_15695276600312846_134"],
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_090",
+      "baseType": "identifier"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": [""]
+      },
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_091",
+      "baseType": "currency"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": [""]
+      },
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_092",
+      "baseType": "currency"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": [""]
+      },
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_093",
+      "baseType": "currency"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": [""]
+      },
+      "choiceSequence": ["res_EAT_1325240017374_0_15695276600312846_135", "res_EAT_1325240017374_0_15695276600312846_132", "resp_5", "resp_1", "resp_3", "res_EAT_1325240017374_0_15695276600312846_134", "resp_4", "EAT_1484228765930_1_609592627824036", "res_EAT_1325240017374_0_15695276600312846_136", "res_EAT_1325240017374_0_15695276600312846_133", "resp_2"],
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_094",
+      "baseType": "identifier"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": [""]
+      },
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_095",
+      "baseType": "currency"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": [""]
+      },
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_096",
+      "baseType": "currency"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": [""]
+      },
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_097",
+      "baseType": "currency"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": [""]
+      },
+      "choiceSequence": ["resp_5", "resp_3", "resp_4", "res_EAT_1325240017374_0_15695276600312846_133", "EAT_1484228765930_1_609592627824036", "res_EAT_1325240017374_0_15695276600312846_135", "res_EAT_1325240017374_0_15695276600312846_136", "res_EAT_1325240017374_0_15695276600312846_134", "res_EAT_1325240017374_0_15695276600312846_132", "resp_1", "resp_2"],
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_098",
+      "baseType": "identifier"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": [""]
+      },
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_099",
+      "baseType": "currency"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": [""]
+      },
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_100",
+      "baseType": "currency"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": [""]
+      },
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_101",
+      "baseType": "currency"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": [""]
+      },
+      "choiceSequence": ["EAT_1484228765930_1_609592627824036", "resp_2", "resp_4", "resp_5", "resp_1", "resp_3", "res_EAT_1325240017374_0_15695276600312846_136", "res_EAT_1325240017374_0_15695276600312846_132", "res_EAT_1325240017374_0_15695276600312846_133", "res_EAT_1325240017374_0_15695276600312846_134", "res_EAT_1325240017374_0_15695276600312846_135"],
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_102",
+      "baseType": "identifier"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": [""]
+      },
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_103",
+      "baseType": "currency"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": [""]
+      },
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_104",
+      "baseType": "currency"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": [""]
+      },
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_105",
+      "baseType": "currency"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": [""]
+      },
+      "choiceSequence": ["resp_2", "res_EAT_1325240017374_0_15695276600312846_134", "res_EAT_1325240017374_0_15695276600312846_135", "resp_3", "res_EAT_1325240017374_0_15695276600312846_136", "EAT_1484228765930_1_609592627824036", "resp_5", "res_EAT_1325240017374_0_15695276600312846_132", "resp_1", "res_EAT_1325240017374_0_15695276600312846_133", "resp_4"],
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_106",
+      "baseType": "identifier"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": [""]
+      },
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_107",
+      "baseType": "currency"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": [""]
+      },
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_108",
+      "baseType": "currency"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": [""]
+      },
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_109",
+      "baseType": "currency"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": [""]
+      },
+      "choiceSequence": ["EAT_1484228702418_1_1297512810819765", "EAT_1484228702418_1_663776482625599", "EAT_1484228702418_1_197969391910284"],
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_110",
+      "baseType": "identifier"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": [""]
+      },
+      "choiceSequence": ["resp_10", "resp_2", "resp_4", "resp_3", "res_EAT_1325240017374_0_15695276600312846_269", "resp_11", "resp_8", "resp_12", "resp_9", "resp_7", "resp_6", "resp_1", "resp_5"],
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_111",
+      "baseType": "identifier"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": [""]
+      },
+      "choiceSequence": ["res_EAT_1325240017374_0_15695276600312846_276"],
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_112",
+      "baseType": "typeahead"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": [""]
+      },
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_113",
+      "baseType": "currency"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": [""]
+      },
+      "choiceSequence": ["EAT_1484229000441_1_7881431722247627"],
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_114",
+      "baseType": "typeahead"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": [""]
+      },
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_115",
+      "baseType": "currency"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": [""]
+      },
+      "choiceSequence": ["res_EAT_1325240017374_0_15695276600312846_284"],
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_116",
+      "baseType": "typeahead"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": [""]
+      },
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_117",
+      "baseType": "currency"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": [""]
+      },
+      "choiceSequence": ["res_EAT_1325240017374_0_15695276600312846_288"],
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_118",
+      "baseType": "typeahead"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": [""]
+      },
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_119",
+      "baseType": "currency"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": [""]
+      },
+      "choiceSequence": ["resp_11", "resp_13", "resp_6", "resp_5", "resp_2", "resp_12", "resp_8", "resp_10", "resp_3", "resp_4", "resp_9", "resp_7", "resp_1"],
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_120",
+      "baseType": "identifier"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": [""]
+      },
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_121",
+      "baseType": "currency"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": [""]
+      },
+      "choiceSequence": ["resp_8", "resp_9", "resp_3", "resp_5", "resp_10", "resp_6", "resp_11", "resp_4", "resp_2", "resp_12", "resp_13", "resp_1", "resp_7"],
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_122",
+      "baseType": "identifier"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": [""]
+      },
+      "choiceSequence": ["res_EAT_1325240017374_0_15695276600312846_308"],
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_123",
+      "baseType": "typeahead"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": [""]
+      },
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_124",
+      "baseType": "currency"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": [""]
+      },
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_125",
+      "baseType": "identifier"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": [""]
+      },
+      "choiceSequence": ["EAT_1392708068453_0_49225448709347375"],
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_126",
+      "baseType": "typeahead"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": [""]
+      },
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_127",
+      "baseType": "currency"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": [""]
+      },
+      "choiceSequence": ["resp_4", "resp_13", "resp_12", "resp_2", "resp_11", "resp_8", "resp_3", "resp_6", "resp_7", "resp_1", "resp_9", "resp_10", "resp_5"],
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_128",
+      "baseType": "identifier"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": [""]
+      },
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_129",
+      "baseType": "currency"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": [""]
+      },
+      "choiceSequence": ["resp_13", "resp_8", "resp_10", "resp_1", "resp_5", "resp_3", "resp_12", "resp_6", "resp_2", "resp_7", "resp_4", "resp_11", "resp_9"],
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_130",
+      "baseType": "identifier"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": [""]
+      },
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_131",
+      "baseType": "currency"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": [""]
+      },
+      "choiceSequence": ["resp_12", "resp_2", "resp_9", "resp_6", "resp_4", "resp_5", "resp_1", "resp_8", "resp_11", "resp_13", "resp_7", "resp_3", "resp_10"],
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_132",
+      "baseType": "identifier"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": [""]
+      },
+      "choiceSequence": ["res_EAT_1325240017374_0_15695276600312846_344"],
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_133",
+      "baseType": "typeahead"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": [""]
+      },
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_134",
+      "baseType": "currency"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": [""]
+      },
+      "choiceSequence": ["res_EAT_1325240017374_0_15695276600312846_348"],
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_135",
+      "baseType": "typeahead"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": [""]
+      },
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_136",
+      "baseType": "currency"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": [""]
+      },
+      "choiceSequence": ["resp_7", "resp_6", "resp_4", "resp_8", "resp_9", "resp_10", "resp_13", "resp_2", "resp_12", "resp_3", "resp_11", "resp_1", "resp_5"],
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_137",
+      "baseType": "identifier"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": [""]
+      },
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_138",
+      "baseType": "currency"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": [""]
+      },
+      "choiceSequence": ["resp_8", "resp_4", "resp_12", "resp_5", "resp_6", "resp_9", "resp_3", "resp_11", "resp_2", "resp_1", "resp_7", "resp_10"],
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_139",
+      "baseType": "identifier"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": [""]
+      },
+      "choiceSequence": ["res_EAT_1325240017374_0_15695276600312846_368"],
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_140",
+      "baseType": "typeahead"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": [""]
+      },
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_141",
+      "baseType": "currency"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": [""]
+      },
+      "choiceSequence": ["resp_4", "resp_1", "resp_9", "resp_5", "resp_12", "resp_13", "resp_7", "resp_6", "resp_2", "resp_8", "resp_10", "resp_11", "resp_3"],
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_142",
+      "baseType": "identifier"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": [""]
+      },
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_143",
+      "baseType": "currency"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": [""]
+      },
+      "choiceSequence": ["resp_7", "resp_12", "resp_1", "resp_4", "resp_10", "resp_13", "resp_8", "resp_9", "resp_5", "resp_11", "resp_3", "resp_6", "resp_2"],
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_144",
+      "baseType": "identifier"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": [""]
+      },
+      "choiceSequence": ["res_EAT_1325240017374_0_15695276600312846_388"],
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_145",
+      "baseType": "typeahead"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": [""]
+      },
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_146",
+      "baseType": "currency"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": [""]
+      },
+      "choiceSequence": ["res_EAT_1325240017374_0_15695276600312846_392"],
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_147",
+      "baseType": "typeahead"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": [""]
+      },
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_148",
+      "baseType": "currency"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": [""]
+      },
+      "choiceSequence": ["resp_6", "resp_2", "resp_4", "resp_13", "resp_5", "resp_11", "resp_10", "resp_1", "resp_7", "resp_9", "resp_3", "resp_12", "resp_8"],
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_149",
+      "baseType": "identifier"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": [""]
+      },
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_150",
+      "baseType": "currency"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": [""]
+      },
+      "choiceSequence": ["resp_11", "resp_13", "resp_3", "resp_8", "resp_10", "resp_5", "resp_12", "resp_9", "resp_7", "resp_1", "resp_4", "resp_6", "resp_2"],
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_151",
+      "baseType": "identifier"
+    }, {
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": [""]
+      },
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_152",
+      "baseType": "currency"
+    }],
+    "id": "EAT_1578455316616_1_1659123733074894",
+    "attemptPenalty": {
+      "attempt": 3,
+      "penalty": 0.0,
+      "used": false
+    },
+    "state": "isubmit",
+    "hasSubmit": true
+  }, {
+    "numAttempts": 0,
+    "availableAssistances": [{
+      "type": "reference",
+      "penalty": 0.0,
+      "used": false
+    }, {
+      "type": "listOfAccounts",
+      "penalty": 0.0,
+      "used": false
+    }],
+    "visible": false,
+    "sessionStatus": "initial",
+    "available": "no",
+    "manuallyGraded": false,
+    "feedback": null,
+    "maxAttempts": 3,
+    "score": null,
+    "datestamp": "2020-09-24T21:17:57.658Z",
+    "modified": false,
+    "responseVariables": [{
+      "score": 0.0,
+      "gradableXLMap": null,
+      "candidateResponse": {
+        "values": [""]
+      },
+      "modified": false,
+      "lastDownloadedDate": null,
+      "id": "EAT_1578455316295_1_4850329874074777_153",
+      "baseType": "identifier"
+    }],
+    "id": "EAT_1578455316628_1_3174440608619453",
+    "attemptPenalty": {
+      "attempt": 3,
+      "penalty": 0.0,
+      "used": false
+    },
+    "state": "isubmit",
+    "hasSubmit": true
+  }],
+  "state": "none",
+  "attemptPenalty": {
+    "attempt": 3,
+    "penalty": 0.0
+  }
+}

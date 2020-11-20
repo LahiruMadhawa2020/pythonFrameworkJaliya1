@@ -1,0 +1,14 @@
+boto3
+simplejson
+botocore
+pandas
+great-expectations
+datacompy
+sqlalchemy-redshift
+psycopg2-binary
+pytest
+pytest-ordering
+pytest-dependency
+sqlalchemy
+configParser
+config
